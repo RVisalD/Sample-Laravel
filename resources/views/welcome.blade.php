@@ -412,8 +412,6 @@
         <br>
         <input type="radio" name="storagetype" value="space">Space Storage</input>
         <br>
-        <input type="radio" name="storagetype" value="block">Block Storage</input>
-        <br>
         <button type="submit">Upload</button>
     </form>
 </body>
