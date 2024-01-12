@@ -48,7 +48,7 @@
                     <td>{{ $person->lastname }}</td>
                     <td>{{ $person->photo }}</td>
                     @php
-                        $baseUrl = 'https://space-app4.sgp1.cdn.digitaloceanspaces.com/';
+                        $baseUrl = 'https://space-app5.sgp1.cdn.digitaloceanspaces.com/';
                     @endphp
                     <td><img src="{{ asset($baseUrl . $person->photo) }}" alt="Person Image" style="max-width: 100px;"></td>
                 </tr>
